@@ -304,5 +304,36 @@ select:not(:placeholder-shown)+label {
     background-color: #181E4B;
 }
 
+/*--------------------------------------------------------------
+# Credits
+--------------------------------------------------------------*/
+.credits {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+  text-align: right;
+  font-size: 13px;
+  color: #fff;
+  z-index: 999999;
+}
+@media (max-width: 992px) {
+  .credits {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
+.credits a {
+  color: #F7C244;
+  transition: 0.3s;
+}
+.credits a:hover {
+  color: #fff;
+}
+
+
+
 
 /*# sourceMappingURL=style.css.map */
