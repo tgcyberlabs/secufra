@@ -1,0 +1,17 @@
+@media only screen and (max-device-width:700px) {
+
+    .inner {
+        position: unset;
+        top: unset;
+        bottom: unset;
+        transform: unset;
+    }
+
+    .image-holder {
+        padding: 10px;
+    }
+
+    .image-holder img {
+        border-radius: 30px;
+    }
+}
