@@ -26,6 +26,9 @@ $("#submit_btn").click(function () {
   } else if (!$("#txtcity").val()) {
     alert("Please Enter Requird city");
     $(this).focus();
+  } else if ($("#txtmob").val().length != 13) {
+    alert("Enter Valid Mobile Number,with country code");
+    $(this).focus();
   } else {
     $("#staticBackdrop").modal("show");
   }
@@ -47,5 +50,3 @@ $("#submit_btn").click(function () {
 //       .replace(/-*$/g, "");
 //   }
 // }
-// action =
-//   "https://docs.google.com/forms/d/e/1FAIpQLSde2cP3cXpaDZuijwZgB_npehx0xs21Xk-WaRIbXOvcCOscCA/formResponse";

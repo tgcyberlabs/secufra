@@ -1,4 +1,7 @@
 @media only screen and (max-device-width:700px) {
+    body {
+        overflow: auto;
+    }
 
     .inner {
         position: unset;
